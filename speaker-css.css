@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+}
+/* div   div   div */
+.one-main {
+  background: #87b6a7;
+  width: 100vw;
+  height: 55vh;
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
+  /* display: block; */
+}
+.two {
+  position: absolute;
+  top: 120px;
+  left: 700px;
+}
+.three {
+  position: absolute;
+  left: 780px;
+  top: 60px;
+  font-size: x-large;
+  color: teal;
+}
+
+.two-main{
+ box-sizing: border-box;
+ margin: 0;
+ width: 100vw;
+ height: 45vh;
+ background: #B3AF8F;
+ /* position: relative; */
+}
+.three-main{
+ position: relative;
+}
+.four-main{
+  width: 100vw;
+  height: 20vh;
+  background: black;
+  opacity: .7;
+  position: relative;
+}
+.four-main-one{
+position: absolute;
+left: 700px;
+top: 30px;
+}
+span{
+  /* display: inline-block; */
+  color: white;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+/* div     div */
+
+/* p     p      p */
+.p1 {
+  text-transform: uppercase;
+  font-size: xxx-large;
+  margin: 0;
+  padding-left: 20%;
+  position: absolute;
+  top: 10%;
+  color: teal;
+}
+.p2 {
+  text-transform: uppercase;
+  font-size: xxx-large;
+  margin: 0;
+  padding-left: 20%;
+  position: absolute;
+  top: 20%;
+  color: teal;
+  /* padding-top: 20px; */
+}
+.p3{
+ text-align: center;
+ margin: 0;
+ padding-top: 80px;
+ font-size: x-large;
+ font-weight: 600;
+ color: teal;
+}
+.p4{
+ text-align: center;
+ width: 60vw;
+ padding-left: 230px;
+}
+.p5{
+  width: 80%;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.p6{
+  margin-top: -230px;
+  margin-left: 700px;
+  font-size: xx-large;
+  color: teal;
+}
+
+
+
+/* link      link */
+.a1 {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  /* border: solid teal; */
+  color: black;
+  /* font-family: ; */
+  background: #87b6a7;
+}
+.a1:hover {
+  background: black;
+  color: white;
+  border: solid white;
+  border-radius: 0.5em;
+}
+.a2{
+  display: inline-block;
+  margin-left: 700px;
+  margin-top: 200px;
+  text-decoration: none;
+}
+
+
+.img1{
+ width: 200px;
+ border-radius: 50%;
+}
+
+
+fieldset{
+ width: 80vw;
+ height: 80vh;
+ margin-left: 110px;
+ margin-top: 20px;
+}
+/* fieldset::before{
+ content: "";
+ width: 80%;
+ height: 100%;
+ position: absolute;
+ border: solid gray;
+ top: -1%;
+ left: 5%;
+ z-index: -1;
+} */
+
+legend{
+ padding-left: 100px;
+}
+legend:hover{
+ transform: translateX(-50px);
+ /* transform: scaleX(100px); */
+ /* border: solid black 50%; */
+}
